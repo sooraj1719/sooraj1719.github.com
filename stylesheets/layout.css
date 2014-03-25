@@ -1,0 +1,556 @@
+/*
+* Theme Name: Love is - One Page Responsive Wedding Template
+* Author: lmtheme (Linar Miftakhov)
+* Author URL: http://themeforest.net/user/lmtheme
+* Version: 1.0
+*/
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+		
+/* ============================================================================= 
+1. General 
+============================================================================= */
+body{
+	font-family: 'Open Sans', "Helvetica Neue", Arial, Helvetica, FreeSans, sans-serif;
+	background-color:#FFF;
+	font-weight: 400;
+	font-size: 14px;
+	color: #704f55;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	overflow: auto;
+	padding:0;
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', Georgia, Times, serif;
+	color:#3d1f24;
+	margin-top:0;
+	margin-bottom:10px;	
+	font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 42px; line-height: 46px; margin-bottom: 14px;}
+h2 { font-size: 32px; line-height: 37px; margin-bottom: 10px; }
+h3 { font-size: 25px; line-height: 31px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+p {
+	font-size:13px;
+	line-height:20px;
+}
+a{
+	color: #9bcbcf;
+	text-decoration: none;
+}
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 80%; }
+
+header {
+	background-color:#F2798F;
+}
+.wrapper {
+	margin-top:60px;
+}
+
+/* ============================================================================= 
+2. Navigation Menu
+============================================================================= */
+.menu {
+	position:fixed;
+	display: block;
+	text-align:center;
+	top:0px;
+	width:100%; 
+	height: 60px;
+	z-index:11100;
+	background-color:#000000;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+}
+
+#navigation_pane {
+	margin: 0;
+	display: inline-block;
+}
+.navigation{
+	list-style: none;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation li{
+	display: inline-block;
+	padding: 0 20px;
+	font-size:15px;
+	color:#FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.navigation a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.navigation li:hover{
+	cursor:pointer;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#navigation_pane .current {
+	font-weight:bold;
+}
+	
+
+/* ============================================================================= 
+3. Subpages
+============================================================================= */	
+.domain{
+	width:100%;
+	position: relative;
+	height:100%;
+}
+
+.domain-heading{
+	width:100%;
+	position: relative;
+	height:100%;
+	padding-top:20px;
+}
+.container{
+	padding-bottom:40px;
+	}
+
+.bottom-border{
+	border-bottom: 1px dashed #DDD;
+}
+/* ===================================== 
+3.1 Subpage Details
+===================================== */	
+
+.subpage_title {
+	margin-top:60px;
+	margin-bottom:25px;
+	text-align:center;
+	font-family:Georgia, Times, serif;
+	font-size:46px;
+	line-height:50px;
+	color:#000000;
+}
+
+
+/*subtitles*/
+.subtitles{
+	margin-top:40px;
+	margin-bottom:45px;
+	text-align:center;
+	font-family:Georgia, Times, serif;
+	color:#000000;
+}
+
+/*subPoints*/
+.subpoints{
+	text-align:justify;
+	font-family:Georgia, Times, serif;
+	color:#000000;
+}
+
+.subpoints_info {
+	font-size:15px;
+	line-height:20px;
+	font-family:Georgia, Times, serif;
+	color:#3d1f24;
+	text-align:justify;
+	margin-bottom:10px;
+	padding-left: 10px;
+	margin-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+/*icons*/
+.icons{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;	
+}
+
+/*icons*/
+.icon_description{
+	font-size:18px;
+	line-height:20px;
+	margin-bottom:10px;
+	text-align:center;
+	font-family:Georgia, Times, serif;
+	color:#000000;	
+}
+
+.map{
+	padding-top:40px;
+}
+
+#address{
+	text-align:center;
+	margin-top:0px;
+}
+/* ===================================== 
+3.2 Domains Subpages
+===================================== */
+#home {
+	/* background-image: url(../images/morning.jpg); */
+	background-color:white;
+}
+
+#domain1 {
+	/*background-image: url(../images/morning.jpg); 
+	background-color:gray;*/
+}
+
+#domain2 {
+	/* background-image: url(../images/morning.jpg);
+	background-color:white; */
+}
+
+#domain3 {
+	/*background-image: url(../images/morning.jpg);
+	background-color:gray;  */
+}
+
+#domain4.subpage_title{
+	margin-top:0px;
+	padding-top:90px;
+	/*background-image: url(../images/morning.jpg);
+	background-color:white;  */
+}
+
+#domain5 {
+	/*background-image: url(../images/morning.jpg);
+	background-color:gray;
+	border-bottom:0px; */
+}
+
+/* Footer
+  -------------------------------------------------- */
+#footer {
+  background-color:#DCDCDC;
+  border-bottom:0;
+}
+
+#footer.container{
+	border-bottom:0;
+}
+#footer p {
+  margin-bottom: 0;
+}
+
+#footer ul {
+  padding-top: 10px;
+  display: inline-block;
+}
+#footer a,
+#footer p {
+  font-family: "Proxima Nova Condensed","proxima-nova-condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 50px;
+  text-decoration:none;
+}
+#footer a:hover,
+#footer a:active,
+#footer a:focus {
+  color: #000000;
+}
+
+/* ===================================== 
+3.5 Contacts Subpage
+===================================== */
+.joinus li{
+	display: inline-block;
+	padding: 0 20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#contacts {
+	background-image: url(../images/bg.png);
+	padding-bottom:20px;
+}
+#contactform{
+	margin-top:-7px;
+	margin-left:-10px;
+}
+.info_fieldset{
+	padding:0;
+	margin:0;
+	bottom:5px;
+	background: none; 
+	border: 0px;
+}	
+label	{float:left;width:100%;padding:0 0 2px;}
+input[type="text"] 
+textarea	{width:100%;}
+input[type="submit"]	{padding:0;width:100%;margin:5px 0 0;}
+/*FORM ELEMENTS*/
+label { 
+    cursor: pointer;
+	margin-top:7px;
+	margin-bottom:5px;
+	font-family:'Open Sans', "Helvetica Neue", Arial, Helvetica, FreeSans, sans-serif;
+	font-size:15px;
+	font-style:normal;
+	font-weight:400;
+	color: #3d1f24;
+}
+input,textarea {outline: none;}
+button, input, select, textarea { 
+    margin: 0;
+	margin-bottom:10px; 
+	vertical-align: baseline; 
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] { 
+    cursor: pointer; 
+	-webkit-appearance: button; 
+}
+input[type="text"] {
+	border:1px solid #d5d5d5;
+	font:normal 13px;
+	color:#999;
+	padding:3px 5px;
+	width:100%;
+}
+textarea {
+	border:1px solid #d5d5d5;
+	font:normal 13px;
+	color:#999;
+	padding:3px 5px;
+	width:100%;
+	resize: none;
+}
+input[type="text"]:focus,
+textarea:focus{
+	border-color:#F2798F;
+	-webkit-transition: 	all .10s ease-in;
+	-moz-transition:		all .10s ease-in;
+	-o-transition:			all .10s ease-in;
+	transition: 			all .10s ease-in;
+}
+/* Submit Button */
+input[type="submit"] 		{
+	color:#FFFFFF;
+	width:140px;
+	float:right;
+	font-family:'Open Sans', "Helvetica Neue", Arial, Helvetica, FreeSans, sans-serif;
+	font-size:15px;
+	margin-top:10px;
+	margin-right:-10px;
+	background-color:#0f0f0f;
+	-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;
+	padding:6px 10px;
+	box-shadow:none;
+	border:none;
+}
+input[type="submit"]:hover 		{
+	background:#704f55;
+	-webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+     transition: all 0.2s linear;
+}
+
+/* Social Icons */
+.social img {
+	background-image: url("../images/icons/facebook2.jpg");
+	height:128;
+	width:128;
+	margin:0;
+    padding:0;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.social img:hover {
+	/*-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg); */
+	/*visibility:hidden;*/
+	opacity:0;
+}
+
+.social-icons{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-row{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#social-swap-1 {
+background:  url("../images/icons/contactus2.png") no-repeat;
+background-position:50%;
+}
+
+#social-swap-1 img:hover {
+opacity: 0;
+}
+
+#social-swap-2 {
+background:  url("../images/icons/locate2.png") no-repeat;
+background-position:50%;
+}
+
+#social-swap-2 img:hover {
+opacity: 0;
+}
+
+#social-swap-3 {
+background:  url("../images/icons/schedule2.png") no-repeat;
+background-position:50%;
+}
+
+#social-swap-3 img:hover {
+opacity: 0;
+}
+
+#social-swap-4 {
+background:  url("../images/icons/facebook2.png") no-repeat;
+background-position:50%;
+}
+
+#social-swap-4 img:hover {
+opacity: 0;
+}
+
+/* ============================================================================= 
+4. Media Queries 
+============================================================================= */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	}
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	.header_title {
+	margin-top:0px;
+	text-align:center;
+	font-size:24px;
+	line-height:38px;
+	font-family:'Pacifico', Georgia, Times, serif;
+	margin-bottom:0px;
+	color:#3d1f24;
+	}
+    .subpage_title {
+	margin-top:20px;
+	margin-bottom:25px;
+	text-align:center;
+	font-family:'Pacifico', Georgia, Times, serif;
+	font-size:35px;
+	line-height:38px;
+	color:#F2798F;
+    }
+	.top_titles {
+	margin-top:20px;
+    }
+	#navigation_pane {
+	position: absolute;
+	min-height: 40px;
+	}	
+	#navigation_pane ul {
+	width: 150px;
+	margin:11px auto;
+	padding: 5px 0;
+	position: absolute;
+	background: #fce4e9 url(../images/mobile_menu/open.png) no-repeat 8px 2px;
+	-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;
+	}
+	#navigation_pane li {
+	display: none; /* hide all <li> items */
+	margin: 0;
+	color:#3d1f24;
+	padding:5px 0 5px 0;
+	}
+	#navigation_pane .current {
+	display: block; /* show only current <li> item */
+	color:#704f55;
+	}
+	/* on nav hover */
+	#navigation_pane ul:hover {
+	background-image: none;
+	}
+	#navigation_pane ul:hover li {
+	display: block;
+	margin: 0 0 10px;
+	}
+	#navigation_pane ul:hover .current {
+	background: url(../images/mobile_menu/open.png) no-repeat 8px -3px;
+	color:#704f55;
+	}
+	#home {
+	height:auto;
+	background-image: url(../images/bg.png);
+	border-bottom:15px solid #fce4e9;
+	padding-bottom:40px;
+    }
+    .our_story_title {
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+	font-family:'Pacifico', Georgia, Times, serif;
+	font-size:18px;
+	line-height:20px;
+	color:#d5d5d5;
+    }
+	#our_story {
+	height:auto;
+	background-image: url(../images/bg.png);
+	border-bottom:15px solid #fce4e9;
+	padding-bottom:40px;
+    }
+	}
+	
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+	}
