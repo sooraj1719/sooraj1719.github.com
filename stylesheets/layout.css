@@ -204,6 +204,10 @@ header {
 	margin-bottom: 30px;	
 }
 
+.quotesClosing{
+	padding-top:350px;
+}
+
 .social-icons{
 	padding-left: 10px;
 	padding-right: 10px;
@@ -232,7 +236,6 @@ header {
 	display: inline-block;
 	font-size:15px;
 }
-
 
 /* ===================================== 
 3.2 Domains Subpages
@@ -312,60 +315,23 @@ header {
 	margin-top:-7px;
 	margin-left:-10px;
 }
-.info_fieldset{
-	padding:0;
-	margin:0;
-	bottom:5px;
-	background: none; 
-	border: 0px;
-}	
-label	{float:left;width:100%;padding:0 0 2px;}
-input[type="text"] 
-textarea	{width:100%;}
-input[type="submit"]	{padding:0;width:100%;margin:5px 0 0;}
-/*FORM ELEMENTS*/
-label { 
-    cursor: pointer;
-	margin-top:7px;
-	margin-bottom:5px;
-	font-family:'Open Sans', "Helvetica Neue", Arial, Helvetica, FreeSans, sans-serif;
-	font-size:15px;
-	font-style:normal;
-	font-weight:400;
-	color: #3d1f24;
+
+#social-swap-1 {
+background:  url("../images/icons/contactus2.png") no-repeat;
+background-position:50%;
 }
-input,textarea {outline: none;}
-button, input, select, textarea { 
-    margin: 0;
-	margin-bottom:10px; 
-	vertical-align: baseline; 
+
+#social-swap-1 img:hover {
+opacity: 0;
 }
-button, input[type="button"], input[type="reset"], input[type="submit"] { 
-    cursor: pointer; 
-	-webkit-appearance: button; 
+
+#social-swap-4 {
+background:  url("../images/icons/facebook2.png") no-repeat;
+background-position:50%;
 }
-input[type="text"] {
-	border:1px solid #d5d5d5;
-	font:normal 13px;
-	color:#999;
-	padding:3px 5px;
-	width:100%;
-}
-textarea {
-	border:1px solid #d5d5d5;
-	font:normal 13px;
-	color:#999;
-	padding:3px 5px;
-	width:100%;
-	resize: none;
-}
-input[type="text"]:focus,
-textarea:focus{
-	border-color:#F2798F;
-	-webkit-transition: 	all .10s ease-in;
-	-moz-transition:		all .10s ease-in;
-	-o-transition:			all .10s ease-in;
-	transition: 			all .10s ease-in;
+
+#social-swap-4 img:hover {
+opacity: 0;
 }
 
 
