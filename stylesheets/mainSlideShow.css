@@ -1,12 +1,3 @@
-@import "bootstrap.css";
-@import "bootstrap-override.css";
-@import "sticky-footer.css";
-@import "font.css";
-/*@import "retina.css";*/
-@import "layout.css";
-@import "services-subpage.css";
-
-
 /* Main Navigation
   -------------------------------------------------- */
 .navbar-fixed-top {
@@ -798,31 +789,8 @@ button.close{
   display: block;
 }
 
-/* Footer
-  -------------------------------------------------- */
-/*#footer p {
-  margin-bottom: 0;
-}
-.copyright {
-  padding-top: 10px;
-}
-#footer ul {
-  padding-top: 10px;
-  margin-bottom: 0;
-}
-#footer a,
-#footer p {
-  font-family: "Proxima Nova Condensed","proxima-nova-condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #000000;
-  line-height: 50px;
-}
-#footer a:hover,
-#footer a:active,
-#footer a:focus {
-  color: #000000;
-} */
+
+
 .home-social li a {
     display: block;
     height: 50px;

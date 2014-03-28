@@ -204,6 +204,11 @@ header {
 	margin-bottom: 30px;	
 }
 
+.social-icons{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 /*icons*/
 .icon_description{
 	font-size:18px;
@@ -222,12 +227,20 @@ header {
 	text-align:center;
 	margin-top:0px;
 }
+
+.footer-links li{
+	display: inline-block;
+	font-size:15px;
+}
+
+
 /* ===================================== 
 3.2 Domains Subpages
 ===================================== */
 #home {
-	/* background-image: url(../images/morning.jpg); */
-	background-color:white;
+	background-image: url(../images/gandhi.jpg);
+	background-repeat: no-repeat;
+	padding-top:60px;
 }
 
 #domain1 {
@@ -268,26 +281,17 @@ header {
 #footer.container{
 	border-bottom:0;
 }
+
 #footer p {
   margin-bottom: 0;
 }
 
 #footer ul {
-  padding-top: 10px;
+  padding-top: 25px;
   display: inline-block;
 }
-#footer a,
-#footer p {
-  font-family: "Proxima Nova Condensed","proxima-nova-condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #000000;
-  line-height: 50px;
-  text-decoration:none;
-}
-#footer a:hover,
-#footer a:active,
-#footer a:focus {
+
+#footer a {
   color: #000000;
 }
 
@@ -363,94 +367,7 @@ textarea:focus{
 	-o-transition:			all .10s ease-in;
 	transition: 			all .10s ease-in;
 }
-/* Submit Button */
-input[type="submit"] 		{
-	color:#FFFFFF;
-	width:140px;
-	float:right;
-	font-family:'Open Sans', "Helvetica Neue", Arial, Helvetica, FreeSans, sans-serif;
-	font-size:15px;
-	margin-top:10px;
-	margin-right:-10px;
-	background-color:#0f0f0f;
-	-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;
-	padding:6px 10px;
-	box-shadow:none;
-	border:none;
-}
-input[type="submit"]:hover 		{
-	background:#704f55;
-	-webkit-transition: all 0.2s linear;
-     -moz-transition: all 0.2s linear;
-     -o-transition: all 0.2s linear;
-     transition: all 0.2s linear;
-}
 
-/* Social Icons */
-.social img {
-	background-image: url("../images/icons/facebook2.jpg");
-	height:128;
-	width:128;
-	margin:0;
-    padding:0;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.social img:hover {
-	/*-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	transform: rotate(360deg); */
-	/*visibility:hidden;*/
-	opacity:0;
-}
-
-.social-icons{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contact-row{
-	margin-top:30px;
-	margin-bottom:30px;
-}
-
-#social-swap-1 {
-background:  url("../images/icons/contactus2.png") no-repeat;
-background-position:50%;
-}
-
-#social-swap-1 img:hover {
-opacity: 0;
-}
-
-#social-swap-2 {
-background:  url("../images/icons/locate2.png") no-repeat;
-background-position:50%;
-}
-
-#social-swap-2 img:hover {
-opacity: 0;
-}
-
-#social-swap-3 {
-background:  url("../images/icons/schedule2.png") no-repeat;
-background-position:50%;
-}
-
-#social-swap-3 img:hover {
-opacity: 0;
-}
-
-#social-swap-4 {
-background:  url("../images/icons/facebook2.png") no-repeat;
-background-position:50%;
-}
-
-#social-swap-4 img:hover {
-opacity: 0;
-}
 
 /* ============================================================================= 
 4. Media Queries 
