@@ -241,9 +241,7 @@ header {
 3.2 Domains Subpages
 ===================================== */
 #home {
-	background-image: url(../images/gandhi.jpg);
-	background-repeat: no-repeat;
-	padding-top:60px;
+	background: url(../images/gandhi.jpg) no-repeat left bottom;
 }
 
 #domain1 {
