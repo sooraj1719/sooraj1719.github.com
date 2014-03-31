@@ -164,8 +164,8 @@ header {
 3.1 Subpage Details
 ===================================== */	
 
-.subpage_title {
-	margin-top:60px;
+.subpage_heading {
+	margin-top:45px;
 	margin-bottom:25px;
 	text-align:center;
 	font-family:Georgia, Times, serif;
@@ -174,7 +174,15 @@ header {
 	color:#000000;
 }
 
-
+.subpage_title{
+	margin-top:5px;
+	margin-bottom:25px;
+	text-align:center;
+	font-family:Georgia, Times, serif;
+	font-size:46px;
+	line-height:50px;
+	color:#000000;
+}
 /*subtitles*/
 .subtitles{
 	margin-top:40px;
