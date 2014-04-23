@@ -55,8 +55,9 @@
 	text-indent: 0;
 	z-index: 1;
 }
+#respond input[type="text"],
 #respond textarea {
-	resize: vertical;
+	resize: none;
 	width: 95%;
 }
 #respond .comment-form-author .required,
@@ -141,7 +142,6 @@
 #respond label {
 	line-height: 2.2em;
 }
-
 #respond p {
 	font-size: 12px;
 }
