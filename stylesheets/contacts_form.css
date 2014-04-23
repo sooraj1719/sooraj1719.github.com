@@ -10,7 +10,7 @@
 	width: auto;
 }
 .singular #respond {
-	width: 68.9%;
+	width: 100%;
 }
 #respond input[type="text"],
 #respond textarea {
@@ -141,11 +141,7 @@
 #respond label {
 	line-height: 2.2em;
 }
-#respond input[type=text] {
-	display: block;
-	height: 24px;
-	width: 95%;
-}
+
 #respond p {
 	font-size: 12px;
 }
