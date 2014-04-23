@@ -25,6 +25,9 @@
 	padding: 10px;
 	text-indent: 80px;
 }
+#respond textarea {
+	text-indent: 180px;
+}
 #respond .comment-form-author,
 #respond .comment-form-email,
 #respond .comment-form-url,
